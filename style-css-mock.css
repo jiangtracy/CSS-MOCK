@@ -1,5 +1,4 @@
 
-
 button {
   background-color: blue;
   opacity: 0.75;
@@ -15,4 +14,20 @@ button {
 
 button:hover {
   opacity: 1;
+}
+
+.card {
+  display: block;
+  width: 200px;
+  border: 1px solid black;
+  box-shadow: 1px;
+  border-radius: 5px; 
+}
+
+img {
+  width: 200px;
+}
+
+.card > * {
+  border: 0.5px dotted gray;
 }
